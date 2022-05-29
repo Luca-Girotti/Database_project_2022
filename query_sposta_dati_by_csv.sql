@@ -14,3 +14,8 @@ WITH
 
 -- https://dev.mysql.com/doc/refman/8.0/en/load-data.html
 -- https://stackoverflow.com/questions/14330314/bulk-insert-in-mysql
+
+-- Nel inserire il contenuto da un csv in una tabella
+-- bisogna verificare che l'ordine degli attributi sia uguale a quello della tabella
+-- in caso contrario non si può inserire.
+-- Per questo motivo bisogna ricontrollare le query per creare le tabelle prima di usarle o testarle
