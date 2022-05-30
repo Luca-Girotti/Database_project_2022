@@ -8,7 +8,7 @@ CREATE TABLE USER
     STUDENT_ID CHAR(6) NOT NULL,
     NAME VARCHAR(35), -- verificare se è corretto perche l'attributo NAME me lo considera come una parola chiave
     SURNAME VARCHAR(35),
-    ADDRESS VARCHAR(60),
+    ADDRESS VARCHAR(100),
     PHONE CHAR(15),
 
     PRIMARY KEY (STUDENT_ID)
