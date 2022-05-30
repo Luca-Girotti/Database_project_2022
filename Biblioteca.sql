@@ -1,5 +1,7 @@
 --removed book we can start over
 
+CREATE SCHEMA `Library` ;
+
 -- Query per la creazione della tabella USER
 CREATE TABLE USER
 (
