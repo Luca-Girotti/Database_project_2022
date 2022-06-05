@@ -19,7 +19,10 @@
             }            
             fieldset {
                 text-align: center;
-                border: 1px solid #ccc;
+                border: 1px solid;
+                border-color: yellowgreen;
+                border-radius: 33px;
+
             }
             a.button {
                 display: inline-block;
@@ -43,6 +46,13 @@
                 background-color:black;
                 opacity: 1;
                 text-decoration:none;
+            }h3{
+                display: inline;
+                text-align:center;
+            }
+            .center{
+                justify-content: center;
+                align-items: center;
             }
         </style>
         
@@ -54,24 +64,41 @@
         </fieldset>
     </header>
     <body>
-        
-        <fieldset>
-            <p><h2>SEARCH</h2></p>
-            <p>
-            <a class="button" href="Search_User.html">Search User</a><br>
-            <a class="button" href="Search_Book.html">Search Book</a><br>
-            <a class="button" href="Search_Author.html">Search Author</a><br>
-            <a class="button" href="Search_Loan.html">Look for a loan</a><br>
-            </p>
-        </fieldset> 
-        <fieldset>
-            <p><h2>LIBRARY MANAGEMENT</h2></p>
-            <p>
-                <a class="button" href="User_list.php">User List</a><br>
-                <a class="button" href="Loans_History.php">Loan History</a><br>
-                <a class="button" href="Overdue_Loans.php">Overdue Loans</a><br>
-                <a class="button" href="">Statistics</a><br>    
-            </p>
-        </fieldset>
+        <table align="center">
+                <tr>
+                    <td>
+                    <fieldset>
+                        <p class = "center"><h3 class = "center">SEARCH</h3></p>
+                        <p>
+                        <a class="button" href="Search_User.html">Search User</a><br>
+                        <a class="button" href="Search_Book.html">Search Book</a><br>
+                        <a class="button" href="Search_Author.html">Search Author</a><br>
+                        <a class="button" href="Search_Loan.html">Look for a loan</a><br>
+                        </p>
+                    </fieldset> 
+                    </td>
+                    <td>
+                    <fieldset>
+                        <p class = "center"><h3 class = "center">LIBRARY MANAGEMENT</h3></p>
+                        <p>
+                            <a class="button" href="User_list.php">User List</a><br>
+                            <a class="button" href="Loans_History.php">Loan History</a><br>
+                            <a class="button" href="Overdue_Loans.php">Overdue Loans</a><br>
+                            <a class="button" href="Statistics.html">Statistics</a><br>    
+                        </p>
+                    </fieldset>
+                    </td>
+
+                    <td>
+                        <fieldset>
+                            <p class = "center"><h3 class = "center">Extra Query</h3></p>
+                            <p>
+                                <a class="button" href="Most_Used_Languages.php">Most used languages</a><br>
+                                <a class="button" href="">Extra query 2</a><br>   
+                            </p>
+                        </fieldset>  
+                    </td>
+                </tr>
+        </table>
     </body>
 </html>
