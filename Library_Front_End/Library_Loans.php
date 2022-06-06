@@ -25,7 +25,7 @@ mysqli_close($link);
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Results:</title>
+        <title>Library loans results</title>
         <link rel="stylesheet" href="https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css"/>
 
         <style>
