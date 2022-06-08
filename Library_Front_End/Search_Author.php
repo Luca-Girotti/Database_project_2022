@@ -21,7 +21,6 @@ WHERE NAME LIKE '%$NAME%'
     
 $query = mysqli_query($link, $sql);
     
-// Close connessione
 mysqli_close($link);
 
 ?>
