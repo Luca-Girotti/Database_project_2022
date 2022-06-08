@@ -244,7 +244,7 @@ mysqli_close($link);
         else echo "Error, something wrong happened, check the insertion again.";
         ?>
         </fieldset>
-        <a class="button" href="searchprestito.html">Go back</a>
+        <a class="button" href="Search_Loan.html">Go back</a>
         <a class="button" href="index.html">Back to the front page</a>
     </body>
 </html>

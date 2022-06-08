@@ -73,7 +73,7 @@ mysqli_close($link);
             }
             else echo "Error, no input parameters!" ?> 
         </fieldset>
-        <a class="button" href="statistiche.html">Go back</a>
+        <a class="button" href="Statistics.html">Go back</a>
         <a class="button" href="index.html">Back to the front page</a>
     </body>
 </html>
