@@ -115,7 +115,7 @@ mysqli_close($link);
                 echo "The following student ID doesn't exists ".$STUDENT_ID."."; 
                 } ?>      
         </fieldset>
-        <a class="button" href="search_user.html">Go back</a>
+        <a class="button" href="Search_User.html">Go back</a>
         <a class="button" href="index.html">Go back to the front page</a>
     </body>
 </html>
