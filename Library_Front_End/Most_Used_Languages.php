@@ -72,7 +72,7 @@ mysqli_close($link);
                 <?php while($row = mysqli_fetch_assoc($query)) { ?>
                     <tr>
                         <td> <?php echo $row['LANGUAGE']; ?> </td>
-                        <td style="text-align: center;"> <?php echo $row['NUMBER_OF_BOOKS']; ?> </td>
+                        <td style="text-align: center;"> <?php echo number_format($row['NUMBER_OF_BOOKS'],2,',',' '); ?>%</td>
                      </tr>	
                 <?php } ?>
                 </tbody>
